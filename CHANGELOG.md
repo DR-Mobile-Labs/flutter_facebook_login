@@ -1,3 +1,6 @@
+## 3.0.1
+* Update Facebook SDK to 7.1.0
+
 ## 3.0.0
 * Update Android & iOS Facebook Login dependencies to `5.5`
 * Removed deprecated method `loginWithPublishPermissions` and renamed `loginWithReadPermission` to `login`
