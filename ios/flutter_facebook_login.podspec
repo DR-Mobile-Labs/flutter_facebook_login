@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_facebook_login'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A Flutter plugin for allowing users to authenticate with native Android &amp; iOS Facebook login SDKs.'
   s.description      = <<-DESC
 A Flutter plugin for allowing users to authenticate with native Android &amp; iOS Facebook login SDKs.
@@ -15,8 +15,8 @@ A Flutter plugin for allowing users to authenticate with native Android &amp; iO
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '~> 7.1.0'
-  s.dependency 'FBSDKLoginKit', '~> 7.1.0'
+  s.dependency 'FBSDKCoreKit', '~> 8.2.0'
+  s.dependency 'FBSDKLoginKit', '~> 8.2.0'
 
   # https://github.com/flutter/flutter/issues/14161
   s.static_framework = true

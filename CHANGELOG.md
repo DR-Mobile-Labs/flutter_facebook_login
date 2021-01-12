@@ -1,3 +1,7 @@
+
+## 3.0.2
+* Update Facebook SDK to 8.2.0 on iOS and 8.1.0 on Android
+
 ## 3.0.1
 * Update Facebook SDK to 7.1.0
 
